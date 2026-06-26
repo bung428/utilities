@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Voxory — Terms of Service</title>
+  <meta name="description" content="Voxory app Terms of Service">
+  <link rel="alternate" hreflang="ko" href="ko.html">
+  <link rel="alternate" hreflang="en" href="en.html">
+  <style>
+    :root {
+      --bg: #fafafa;
+      --surface: #ffffff;
+      --text: #1a1a1a;
+      --muted: #5c5c5c;
+      --border: #e5e5e5;
+      --accent: #2563eb;
+      --max: 720px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.65;
+      color: var(--text);
+      background: var(--bg);
+    }
+    header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 1rem 1.25rem;
+    }
+    .header-inner {
+      max-width: var(--max);
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.75rem;
+    }
+    .brand { font-weight: 700; font-size: 1.1rem; }
+    .lang-nav a {
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 0.95rem;
+    }
+    .lang-nav a:hover { text-decoration: underline; }
+    main {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 2rem 1.25rem 3rem;
+      background: var(--surface);
+      min-height: calc(100vh - 120px);
+    }
+    h1 { font-size: 1.75rem; margin: 0 0 0.5rem; line-height: 1.3; }
+    .effective {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin-bottom: 2rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+    h2 { font-size: 1.2rem; margin: 2rem 0 0.75rem; }
+    h3 { font-size: 1.05rem; margin: 1.5rem 0 0.5rem; }
+    p, li { color: var(--text); }
+    ul, ol { padding-left: 1.25rem; }
+    li { margin: 0.35rem 0; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0;
+      font-size: 0.95rem;
+    }
+    th, td {
+      border: 1px solid var(--border);
+      padding: 0.6rem 0.75rem;
+      text-align: left;
+      vertical-align: top;
+    }
+    th { background: var(--bg); font-weight: 600; }
+    blockquote {
+      margin: 1rem 0;
+      padding: 0.75rem 1rem;
+      border-left: 3px solid var(--accent);
+      background: var(--bg);
+      color: var(--muted);
+    }
+    a { color: var(--accent); }
+    footer {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem 2rem;
+      color: var(--muted);
+      font-size: 0.85rem;
+      text-align: center;
+    }
+    @media (min-width: 640px) {
+      main { margin-top: 1.5rem; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,.06); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <div class="brand">Voxory</div>
+      <nav class="lang-nav" aria-label="Language">
+        <a href="ko.html">한국어</a>
+        &nbsp;·&nbsp;
+        <a href="en.html" aria-current="page">English</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h1>Terms of Service</h1>
+    <p class="effective"><strong>Effective date:</strong> June __, 2026</p>
+
+    <h2>Article 1 (Purpose)</h2>
+    <p>
+      These Terms of Service ("Terms") govern your use of the <strong>Voxory</strong> app
+      ("App" or "Service") provided by [Developer/Company name] ("we", "us", or "our")
+      and set out the rights, obligations, and responsibilities of both parties.
+    </p>
+
+    <h2>Article 2 (Definitions)</h2>
+    <table>
+      <thead><tr><th>Term</th><th>Definition</th></tr></thead>
+      <tbody>
+        <tr><td>Service</td><td>The Voxory application providing voice recording, transcription, and on-device AI analysis</td></tr>
+        <tr><td>User</td><td>An individual who installs and uses the App after agreeing to these Terms</td></tr>
+        <tr><td>On-device processing</td><td>Processing of voice/text data exclusively within the user's device without transmission to external servers</td></tr>
+        <tr><td>AI model</td><td>On-device AI inference modules including speech-to-text (STT) and large language model (LLM)</td></tr>
+        <tr><td>Content</td><td>Audio files, transcribed text, and AI analysis results created and stored by the user through the App</td></tr>
+      </tbody>
+    </table>
+    <p>Any terms not defined herein shall follow applicable laws and service guidelines.</p>
+
+    <h2>Article 3 (Effect and Changes to Terms)</h2>
+    <ol>
+      <li>These Terms take effect when you tap "Agree" on the consent screen shown at first launch.</li>
+      <li>Users under the applicable minimum age (14 in South Korea, or the local legal minimum) must obtain parental or guardian consent.</li>
+      <li>We may update these Terms. For material changes we will notify you at least <strong>7 days</strong> in advance via in-app notice or release notes.</li>
+      <li>Continued use of the App after the effective date of revised Terms constitutes acceptance.</li>
+      <li>The current Terms are always available at [public URL].</li>
+      <li>If you do not agree to these Terms, do not use the App.</li>
+    </ol>
+
+    <h2>Article 4 (Service Description)</h2>
+    <h3>1. Provided Features</h3>
+    <table>
+      <thead><tr><th>Feature</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td>Direct recording</td><td>Voice memo recording via device microphone</td></tr>
+        <tr><td>File import</td><td>Import existing audio files from device (WAV, MP3, M4A, AAC, MP4, AMR, 3GA, 3GP)</td></tr>
+        <tr><td>STT transcription</td><td>Automatic voice-to-text conversion using on-device AI</td></tr>
+        <tr><td>AI analysis</td><td>Automatic extraction of titles, categories, keywords, summaries, emotions, and to-dos</td></tr>
+      </tbody>
+    </table>
+    <h3>2. Service Changes and Termination</h3>
+    <p>
+      We may modify or terminate the Service as needed, and will notify users at least
+      <strong>1 month</strong> in advance for material changes or termination via in-app notice.
+    </p>
+    <h3>3. Usage Conditions</h3>
+    <ul>
+      <li>Core features are available offline without an internet connection.</li>
+      <li>An internet connection is required for initial AI model download and updates.</li>
+      <li>Advertising features (Google AdMob) operate when connected to the internet.</li>
+    </ul>
+
+    <h2>Article 5 (On-Device Processing Principles)</h2>
+    <h3>1. Data Processed On-Device</h3>
+    <p>
+      All core processing (recording, STT, AI analysis) runs <strong>exclusively on your device</strong>.
+      The following data <strong>never leaves your device</strong>:
+    </p>
+    <table>
+      <thead><tr><th>Data Type</th><th>Location</th></tr></thead>
+      <tbody>
+        <tr><td>Directly recorded audio files</td><td>Local device storage</td></tr>
+        <tr><td>Imported audio files and their converted copies</td><td>Local device storage</td></tr>
+        <tr><td>STT transcription results</td><td>On-device AI processing</td></tr>
+        <tr><td>AI-generated titles, categories, keywords, summaries, emotions, to-dos</td><td>On-device AI processing</td></tr>
+        <tr><td>App preferences and personalization data</td><td>Local device storage</td></tr>
+      </tbody>
+    </table>
+    <h3>2. When Network Access Occurs</h3>
+    <table>
+      <thead><tr><th>Purpose</th><th>Recipient</th><th>Data Transmitted</th></tr></thead>
+      <tbody>
+        <tr><td>AI model download</td><td>External hosting (Hugging Face, Google, etc.)</td><td>Model files only (voice/text not transmitted)</td></tr>
+        <tr><td>Showing ads</td><td>Google AdMob</td><td>Advertising ID and related ad data</td></tr>
+      </tbody>
+    </table>
+
+    <h2>Article 6 (Data Loss and Limitation of Liability)</h2>
+    <h3>1. No Liability for Data Loss</h3>
+    <p>
+      All content stored in the App is kept only in your device's local storage.
+      We are <strong>not responsible</strong> for data loss caused by:
+    </p>
+    <table>
+      <thead><tr><th>Cause</th></tr></thead>
+      <tbody>
+        <tr><td>Device loss, theft, damage, failure, or factory reset</td></tr>
+        <tr><td>App uninstallation</td></tr>
+        <tr><td>Insufficient device storage</td></tr>
+        <tr><td>OS updates, app crashes, or unexpected termination</td></tr>
+        <tr><td>User error (including accidental deletion)</td></tr>
+        <tr><td>Events beyond our control (force majeure, hacking, etc.)</td></tr>
+      </tbody>
+    </table>
+    <blockquote>
+      <strong>Recommendation:</strong> Use the app's Export feature and regularly back up important
+      data to your own cloud storage (Google Drive, iCloud, etc.).
+    </blockquote>
+    <h3>2. AI Accuracy</h3>
+    <p>
+      Transcription, summaries, and classifications may be inaccurate depending on device performance,
+      audio quality, and background noise. We make no warranty of accuracy and are not liable for
+      losses arising from reliance on AI output.
+    </p>
+    <h3>3. Service Interruption</h3>
+    <p>
+      We may suspend the Service temporarily for maintenance or due to events beyond our control.
+      We are not liable for resulting damages. Because core features are on-device, most functionality
+      remains available without internet access.
+    </p>
+
+    <h2>Article 7 (User Obligations)</h2>
+    <h3>1. Lawful Use</h3>
+    <p>You must use the App in compliance with applicable laws and these Terms.</p>
+    <h3>2. No Recording Without Consent</h3>
+    <p>
+      You must <strong>not record third parties without their consent</strong>. Recording conversations
+      without all-party consent may violate applicable wiretapping or privacy laws. You bear full
+      legal responsibility for any such recording.
+    </p>
+    <h3>3. Prohibited Conduct</h3>
+    <table>
+      <thead><tr><th>Prohibited Action</th></tr></thead>
+      <tbody>
+        <tr><td>Reverse-engineering, decompiling, or extracting source code from the App</td></tr>
+        <tr><td>Extracting or commercially exploiting AI models included in the App</td></tr>
+        <tr><td>Using the App to infringe others' rights (copyright, privacy, etc.)</td></tr>
+        <tr><td>Using the App for any unlawful or harmful purpose</td></tr>
+        <tr><td>Interfering with service operations or placing excessive load on systems</td></tr>
+        <tr><td>Distributing viruses or malicious code</td></tr>
+        <tr><td>Damaging others' reputation or spreading false information</td></tr>
+      </tbody>
+    </table>
+
+    <h2>Article 8 (Intellectual Property)</h2>
+    <h3>1. App and Models</h3>
+    <p>
+      All intellectual property rights in the App, design, trademarks, and AI model architectures
+      belong to us or our licensors.
+    </p>
+    <h3>2. Open-Source Licenses</h3>
+    <p>
+      The App includes open-source software and public AI models governed by their respective licenses
+      (Apache 2.0, MIT, CC BY, etc.). View the full list in Settings → "Open Source Licenses".
+    </p>
+    <h3>3. Your Content</h3>
+    <p>
+      You retain ownership of all audio files and text you create in the App. We claim no rights
+      over your content and do not collect or use it.
+    </p>
+
+    <h2>Article 9 (Advertising)</h2>
+    <p>
+      The App serves ads via Google AdMob. For details on the data Google collects, see the Privacy Policy.
+      You can limit ad personalization in device settings.
+    </p>
+
+    <h2>Article 10 (Disclaimer of Warranties)</h2>
+    <p>To the maximum extent permitted by law, we disclaim liability for:</p>
+    <table>
+      <thead><tr><th>Item</th></tr></thead>
+      <tbody>
+        <tr><td>App malfunction, errors, or bugs</td></tr>
+        <tr><td>Device compatibility issues</td></tr>
+        <tr><td>Inaccuracy of AI results</td></tr>
+        <tr><td>Legal disputes arising from recording without consent</td></tr>
+        <tr><td>Damages caused by third-party services (e.g., Google AdMob)</td></tr>
+        <tr><td>Data loss not caused by our negligence</td></tr>
+        <tr><td>Damages caused by force majeure, strikes, regulatory changes, or government orders</td></tr>
+      </tbody>
+    </table>
+
+    <h2>Article 11 (Obligations of the Parties)</h2>
+    <h3>1. Our Obligations</h3>
+    <p>
+      We will make reasonable efforts to provide a stable and reliable Service. Liability may be
+      limited in cases of force majeure, system failure, or other events beyond our reasonable control.
+    </p>
+    <h3>2. Privacy Protection</h3>
+    <p>
+      We will not disclose or distribute user information to third parties without prior consent,
+      except as required by lawful requests from law enforcement or government agencies.
+    </p>
+
+    <h2>Article 12 (Governing Law and Dispute Resolution)</h2>
+    <ol>
+      <li>These Terms are governed by the laws of the <strong>Republic of Korea</strong>.</li>
+      <li>Disputes will first be resolved through good-faith negotiation between the parties.</li>
+      <li>If unresolved, the <strong>[competent court, e.g., Seoul Central District Court]</strong> shall have exclusive jurisdiction over the first instance.</li>
+    </ol>
+
+    <h2>Article 13 (Matters Not Specified)</h2>
+    <p>Matters not specified in these Terms shall follow applicable laws and commercial practice.</p>
+
+    <h2>Effective Date</h2>
+    <p><strong>These Terms are effective as of __, 2026.</strong></p>
+
+    <h2>Developer Information</h2>
+    <table>
+      <thead><tr><th>Item</th><th>Details</th></tr></thead>
+      <tbody>
+        <tr><td>Developer/Company</td><td>[Developer/Company name]</td></tr>
+        <tr><td>Email</td><td><a href="mailto:contact@example.com">contact@example.com</a></td></tr>
+        <tr><td>Address</td><td>[Business address]</td></tr>
+      </tbody>
+    </table>
+  </main>
+
+  <footer>Voxory · Terms of Service</footer>
+</body>
+</html>
